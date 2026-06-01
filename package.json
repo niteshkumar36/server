@@ -1,0 +1,21 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "This is for pratice file",
+  "homepage": "https://github.com/niteshkumar36/server#readme",
+  "bugs": {
+    "url": "https://github.com/niteshkumar36/server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niteshkumar36/server.git"
+  },
+  "license": "ISC",
+  "author": "niteshkumar",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}
