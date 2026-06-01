@@ -1,7 +1,8 @@
-var slugify=require('slugify')
+var slugify = require('slugify')
 
-const a=slugify('some string')
+const a=slugify('some string') // some-string
 console.log(a)
 
-const b=slugify('some-string','_')
+// if you prefer something other than '-' as separator
+const b=slugify('some string', '_')  // some_string
 console.log(b)
